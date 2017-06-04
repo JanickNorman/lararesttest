@@ -12,3 +12,7 @@
 */
 
 Route::get('/', 'EmployeeController@show');
+Route::get('/main', function(Request $request) {
+
+	return "this is for production";
+})
