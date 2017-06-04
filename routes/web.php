@@ -12,3 +12,7 @@
 */
 
 Route::get('/', 'EmployeeController@show');
+Route::get('/tes', function(Request $request) {
+
+	return "TES route";
+});
